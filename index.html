@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/45fb48c2fe.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "OD7iCInFzinPy04_g",
+      });
+   })();
+</script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo1.png" alt="logo" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Projects</a></li>
+                    <li><a href="#portfolio">Websites</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <div class="row">
+                    <div class="right">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Nitesh</span> Gadaballi <br> from India</h1>
+                     </div>
+                    <div class="vector">
+                    <img src="images/finalbgimg.jpg" alt="logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----about-----about---about---about-----about-------about----------about----about------about----about------about-------about---------about--------v----------------about-------------------about------------about---------------------about-----------v----------about-----------about-------------------about------about---------------about-about-about------------about-------about--------------about-------------about------------------about------------------about----------------------about-----------------------about----------------------------about-----------------about-----------------------about--------------------------about---------------------------------about-----------------------------------about-----------------------------------about--------------------------about------------------------------about-------------------------------about------------------------------------------------about----------------------------------about----------------------------about---------------------about--------------------------------about---------------------------------about----------------------------about---------------------------about------------------------------>
+    <div id="about">
+        <div class="container"> 
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/nitesh2.jpg" alt="image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I'm Nitesh Gadaballi, a web developer passionate about building responsive and visually appealing websites. I specialize in HTML, CSS, JavaScript, and enjoy crafting smooth, user-friendly interfaces. From landing pages to full web apps, I focus on clean code, smart design, and seamless user experiences. I'm also exploring backend technologies and real-time features to grow as a full-stack developer.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Tech-Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>  
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <div class="lanh">
+                            <li><span>Frontend</span></li>
+                            <div class="lant">
+                                <p>HTML   <i class="fa-brands fa-html5"></i></p><P>CSS  <i class="fa-brands fa-css"></i></P><p>Javascript  <i class="fa-brands fa-js"></i></p>
+                            </div>
+                            </div>
+                            <div class="lanb">
+                            <li><span>Backend</span></li>
+                                <div class="lana">
+                                <p>PHP  <i class="fa-brands fa-php"></i><p>Flask <span class="iconify" data-icon="simple-icons:flask" data-width="24" data-height="24"></span><p>Core Java  <i class="fa-brands fa-java"></i><p>Python(For backend apps) <i class="fa-brands fa-python"></i><p>API Integration(concept) <img src="images/api.png" alt="API Icon" class="api-icon"></p>
+                                </div>
+                            </div>
+                            <div class="land">
+                            <li><span>Database</span></li>
+                            <div class="lanm">
+                            <p>MySQL <i class="fa-solid fa-database"></i></p><p>MS SQL Server <img src="images/database.png" alt="My SQL server Icon" class="database-icon"></p>
+                            </div>
+                            </div>
+                            <div class="lanc">
+                            <li><span>Core Programming</li>
+                            <div class=lanp>
+                            <p>C++ <img src="images/Cplusplus.png" alt="C++ Icon" class="Cplusplus-icon"></span></p><p>DSA <img src="images/dsa.jpg" alt="dsa Icon" class="dsa-icon"></span></p><p>Python <i class="fa-brands fa-python"></i></p><p>Core Java <i class="fa-brands fa-java"></i></p>
+                        </div>
+                        </div>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span style="color: yellow;">College SLE Projects</span></li>
+                            <li><span>ID-Card pdf generator for Students</span><br>Using java created full project and also for pdf generation Apache PDFBox, and also how to compile and run the project.</li>
+                            <li><span>Real-Time Collaborative Coding With Integrated Video Calls.</span><br>Created account on Twilio to access Video Calling API and and generated keys for that and and also used Socket.io</li>
+                            <li><span>Canteen Food Ordering</span><br>Created database and tables in Xampp MySql and and payment gateway, And login authentication.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Pursuing BSC IT in HSNCU KC college</span><br>FY(sem1)=9.15 SGPA<br>FY(sem2)=9.00 SGPA<br>SY(sem3)=8.80 SGPA<br></li>
+                            <li><span>HSC board BJPC college<br>2021-2023</span><br>72.83</li>
+                            <li><span>CSBSE KENDRIYA VIDYALAYA NO.3<br>2020</span><br>65.05</li>
+                        </ul>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div> 
+    <!-------services--services---services---services--services----services---services-----services----services------services------services---services----services--services--services--------services---services------services---services--services-services-------services----services-------services--services--------services-----------services----------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-id-card"></i>
+                    <h2>ID Card Generator Repository</h2><br>
+                    <p>Click below to explore the Java & PDFBox-based student ID card generator project on GitHub.</p><br>                    
+                <a href="https://github.com/NiteshGadaballi/ID-Card-Generator-System">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-video"></i><i class="fa-solid fa-code"></i>
+                    <h2>Live Code Editor with Video Calling</h2><br>
+                    <p>Access the full repository for the collaborative code editor built using HTML, CSS, JS, and Twilio API.</p><br>                    
+                    <a href="https://github.com/NiteshGadaballi/Live-Code-Editor-with-Video-Calling">Learn more</a>
+                </div>
+                 <div>
+                    <i class="fa-solid fa-utensils"></i>
+                    <h2>Online Canteen Ordering Project</h2><br>
+                    <p>Visit the GitHub repo for a food ordering web app built using PHP, XAMPP, and frontend tech.</p><br>                    
+                        <a href="https://github.com/NiteshGadaballi/Canteen-food-ordering">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------portfolio---------------portfolio---------------portfolio---------------portfolio---------------portfolio---------------portfolio---------------portfolio---------------portfolio---------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Web based Projects</h1>
+            <p class="sub-title1">Click on the links below to explore the live versions or demos of my Web based projects in action.</p>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/images/calci.png" alt="Calculator image">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>Basic Calculator with basic operations along with the History section</p>
+                        <a href="https://calculatorbynitesh1.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/landing.png" alt="Landing page image">
+                    <div class="layer">
+                        <h3>Feeder's Friend Landing Page</h3>
+                        <p>A Landing page of Feeder's Friends that gives the detailed information about brand and also helps to connect with brand along with contacting</p>
+                        <a href="https://feedersfriend.netlify.app/"target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/portfolioimage.png" alt="Portfolio image">
+                    <div class="layer">
+                        <h3>Potfolio</h3>
+                        <p>Created This Portfolio that Gives detailed Information about me and my Skills and my Experiences so if click on the link below you will be redirected again to this page only from home section</p>
+                        <a href="#header"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------Contact-------------Contact-------------Contact-------------Contact-------------Contact-------------Contact-------------Contact-------------Contact-------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">   
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>gadaballinitesh@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 9167960650</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/nitesh_s_g_?igsh=MWNjcDRmMXF4Z3JodA==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/nitesh-gadaballi-a98a77284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/NiteshGadaballi" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                    <div class="work-contact">
+                        <img src="images/CV.jpg" alt="CV">
+                        <div class="layer-contact">
+                            <a href="images/CV1.pdf" download class="btn">Download CV</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form  id="contact-form">
+                        <input type="text" name="name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your Emial" required>
+                        <textarea name="message" rows="7" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Nitesh. Made with <i class="fa-solid fa-heart"></i> by Nitesh Gadaballi</p>
+        </div>
+    </div>
+    <script src="script.js"></script>   
+</body>
+</html>
