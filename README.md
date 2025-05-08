@@ -1,25 +1,38 @@
-🌐 CodSoft Portfolio
-This repository showcases a responsive personal portfolio website developed during my internship at CodSoft. It highlights my proficiency in front-end web development and serves as a testament to the skills acquired during the program.
+🌐 Personal Portfolio Website
+👋 Welcome to My Personal Portfolio!
+This is my responsive personal portfolio website built using HTML, CSS, and JavaScript, showcasing my projects, skills, education, and experience in a clean and professional layout.
 
-🛠️ Technologies Used
-HTML5
 
-CSS3
+🔧 Tech Stack Used:
+💻 HTML5
 
-JavaScript
+🎨 CSS3
 
-📁 Project Structure
-index.html – Main HTML file
+⚙️ JavaScript (Vanilla)
 
-style.css – Styling and layout
+🛠️ EmailJS – for sending contact form messages with auto-reply
 
-script.js – Interactive functionalities
+✨ Features:
+📱 Fully Responsive Design
+Optimized for both desktop and mobile views using media queries.
 
-images/ – Visual assets and icons
+🎯 Clean Navigation Bar with Hamburger Menu
+Smooth hamburger navigation for smaller screens for sections like Home, About, Services, Portfolio, and Contact.
 
-🎯 Features
-Responsive Design: Ensures optimal viewing across devices.
+📄 About Me Section
+A professional overview including background, education, and career goals.
 
-Interactive Elements: Enhances user engagement.
+🧠 Skills Section
+Lists key technical skills like Python, C++, JavaScript, SQL, DSA, and frameworks.
 
-Clean Layout: Focuses on content clarity and navigation.
+🎓 Education Timeline
+Interactive timeline to display academic milestones.
+
+💼 Experience Section
+Showcases college projects
+
+📬 Contact Form with EmailJS Integration
+Automatically sends emails to the owner and sends an auto-reply to the user who submits the form.
+
+🔗 Social Icons with Clickable Links
+Includes GitHub, LinkedIn, Email, and Phone — fully functional.
