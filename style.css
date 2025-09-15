@@ -121,6 +121,9 @@ font-size:30px;
 .about-col-2{
     flex-basis: 60%;
 }
+.about-col-2 p{
+    font-size: 20px;
+}
 
 .sub-title{
     font-size:60px;
@@ -458,6 +461,8 @@ cursor: pointer;
     border-radius: 10px;
     position:relative;
     overflow: hidden;
+    
+
 }
 .work img{
     width:100%;
@@ -631,8 +636,11 @@ form input, form textarea{
 /*phoneeeee*/
 @media screen and (max-width: 768px) {
 
+    .work {
+        width: 300px;
+    }
     .work img{
-        width: 80%;
+        width: 300px;
         height: 380px;
         border-radius: 10px;
         display: block;

@@ -12,6 +12,7 @@ function opentab(tabname){
     document.getElementById(tabname).classList.add("active-tab");
 }
 // Replace with your actual EmailJS service and template ID
+emailjs.init("ZqQAdmxdp_bEDiHRq");
 const serviceID = "service_s8at5yg";
 const contactTemplateID = "template_f0mm2xn"; // Contact Us (which includes auto-reply)
 
@@ -41,4 +42,3 @@ document.getElementById("contact-form").addEventListener("submit", function(e) {
             navMenu.classList.toggle("show");
         });
     });
-
